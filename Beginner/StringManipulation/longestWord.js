@@ -19,9 +19,7 @@ export const longestWordUsingReduce = (sentence) => {
         return null
     }
 
-    let longestWord = ''
-
-    return longestWord = sentence.split(' ').reduce((acc, curr) => curr.length > acc.length ? curr : acc , '')
+    return sentence.split(' ').reduce((acc, curr) => curr.length > acc.length ? curr : acc , '')
 }
 
 export const longestWordUsingSort = (sentence) => {
