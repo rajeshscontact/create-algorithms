@@ -1,6 +1,6 @@
 import {twoSumBruteForce, twoSumOptimized} from "./twosum";
 
-const arrLen = 100000
+const arrLen = 1000000
 const longArr = new Array(arrLen).fill(1)
 longArr[arrLen-1] = 8
 longArr[arrLen-2] = 3
